@@ -1,0 +1,76 @@
+Arguments: 
+  /Users/Egoist/.nvm/versions/node/v6.11.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/Egoist/.nvm/versions/node/v6.11.0/bin:/usr/local/mongodb/mongodb-osx-x86_64-3.4.4/bin:/Users/Egoist/.rvm/gems/ruby-2.0.0-p643/bin:/Users/Egoist/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/Egoist/.rvm/rubies/ruby-2.0.0-p643/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/tomcat/bin:/Users/Egoist/.rvm/bin:/Users/Egoist/Downloads/adt-bundle-mac-x86_64-20140702/sdk:/Users/Egoist/Downloads/adt-bundle-mac-x86_64-20140702/sdk/platform-tools:/Users/Egoist/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/usr/local/extend_for_java/apache-maven-3.3.3/bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-hot-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate for ReactJS project with hot code reloading",
+    "scripts": {
+      "start": "node server.js",
+      "lint": "eslint src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    },
+    "keywords": [
+      "react",
+      "reactjs",
+      "boilerplate",
+      "hot",
+      "reload",
+      "hmr",
+      "live",
+      "edit",
+      "webpack"
+    ],
+    "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    },
+    "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+    "devDependencies": {
+      "babel-core": "^6.0.20",
+      "babel-eslint": "^4.1.3",
+      "babel-loader": "^6.0.1",
+      "babel-preset-es2015": "^6.0.15",
+      "babel-preset-react": "^6.0.15",
+      "babel-preset-stage-0": "^6.0.15",
+      "eslint": "^1.10.3",
+      "eslint-plugin-react": "^3.6.2",
+      "express": "^4.13.4",
+      "react-hot-loader": "^1.3.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.10.0"
+    },
+    "dependencies": {
+      "react": "^0.14.6",
+      "react-dom": "^0.14.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1018:11)
+      at TLSWrap.onread (net.js:568:26)
